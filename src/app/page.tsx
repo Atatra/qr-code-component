@@ -6,9 +6,9 @@ export default function Home() {
 
       <div className="bg-white rounded-[20px] px-[16px] pt-[16px] pb-[40px]">
         <Image src={"/images/image-qr-code.png"} alt="QR Code"
-          width={288} height={288} className="rounded-[10px] pb-[24px]" />
+          width={288} height={288} className="rounded-[10px]" />
 
-        <div className=" max-w-[288px] px-[16px]">
+        <div className=" max-w-[288px] pt-[24px] px-[16px]">
 
           <h1 className="text-slate-900 outfit-bold text-center">
             Improve your front-end skills by building projects
